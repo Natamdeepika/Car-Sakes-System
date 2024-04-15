@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(246, 246, 231);
+}
+
+nav {
+  background-color: rgb(249, 249, 213);
+  list-style-type: none;
+  margin: 0 2%;
+  padding: 5px;
+  overflow: hidden;
+  height: 50px;
+  width: 96%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: #121213 solid 1px; */
+  box-shadow:  0px 3px 5px #121213;
+}
+
+nav a {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  background-color: rgb(12, 241, 127);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 60%;
+  text-decoration-color: #121213;
+  background: none;
+}
+
+form.example button {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  background: #54575f;
+  color: none;
+  font-size: 17px;
+  border: 1px solid rgb(15, 15, 15);
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #494952;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contact-details-form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-details{
+  margin-right: 100px;
+}
+
+.contact-form-name input{
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: black solid 2px;
+}
+
+.contact-form-name{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-form-mail input{
+  padding: 10px 109px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: black solid 2px;
+}
+
+.contact-form-category select{
+  padding: 10px 126px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: black solid 2px;
+}
+
+.contact-form-message textarea{
+  padding: 20px 109px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: black solid 2px;
+}
+
+.submit-btn{
+  padding: 5px 10px;
+  margin: 10px 150px;
+  border-radius: 5px;
+  background-color: rgb(68, 176, 243);
+  border: blue solid 1px;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-logo{
+  width: 10%;
+  float: left;
+}
+
+.contact-container{
+  margin-top: 100px;
+}

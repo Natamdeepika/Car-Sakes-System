@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(246, 246, 231);
+    display: flex;
+    flex: wrap;
+}
+
+div {
+    height : 680px;
+    width: 460px;
+    padding:10px 30px 40px 30px;
+    align-self: center;
+    margin:5% 33%;
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 4px;
+    box-shadow:  0px 5px 10px #616166;
+}
+button{
+    height: 40px;
+	width: 150px;
+	border-radius:20px;
+	background-image: linear-gradient(to right,
+			rgb(10, 171, 251),
+			rgb(5, 131, 248));
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+div h1 {
+    margin-left: 34%;
+    height: fit-content;
+}
+input{
+    height:30px;
+    width:450px;
+    border-radius: 2px;
+    border: black solid 2px;
+    align-items: center;
+}
+select{
+    height: 30px;
+    width: 413px;
+    border-radius: 2px;
+    border: black solid 2px;
+    align-items: center;
+}
